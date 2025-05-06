@@ -227,7 +227,6 @@ export function detectReferer(win) {
 
     const location = reachedTop || hasTopLocation ? bestLocation : null;
     const canonicalUrl = config.getConfig('pageUrl') || bestCanonicalUrl || null;
-    const canonicalUrl = config.getConfig('pageUrl') || bestCanonicalUrl || null;
     let page = config.getConfig('pageUrl') || ensureProtocol(canonicalUrl, win) || location;
 
     return {
