@@ -1,12 +1,13 @@
 {
   "name": "prebid.js",
-  "version": "8.29.0",
+  "version": "8.29.0-s1-fork",
   "description": "Header Bidding Management Library",
   "main": "src/prebid.js",
   "scripts": {
     "serve": "gulp serve",
     "test": "gulp test",
-    "lint": "gulp lint"
+    "lint": "gulp lint",
+    "build": "gulp build --modules=modules.json"
   },
   "repository": {
     "type": "git",
